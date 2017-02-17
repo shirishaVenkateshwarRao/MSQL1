@@ -1,0 +1,33 @@
+---
+title: Create table with primary key
+taxonomy:
+    category: docs
+metadata:
+    description: 'Create table with primary key '
+    keywords: 'Create table with primary key '
+---
+|[fa icon=fa-user /]     | Shirisha Sunkara / tinitiate.com  |
+|-------------------------------------------------------------|
+|[fa icon=file-code-o /] | Create-table-with-primary-key.sql 
+
+* Enables  to implement a database with tables, columns and indexes.
+* Guarantees the Referential Integrity between rows of various tables.
+* Updates the indexes automatically.
+
+##CODE-SQL
+
+### PRIMARY KEY 
+* The PRIMARY KEY constraint uniquely identifies each record in a database table.
+* Primary keys must contain UNIQUE values.
+* A primary key column cannot contain NULL values.
+* Most tables should have a primary key, and each table can have only ONE primary key.
+
+
+#### create table with primary key command
+```
+ CREATE TABLE table_name ( column_name1 datatype size,
+						   column_name2 datatype size,
+						   column_name3 datatype not_null,
+						   PRIMARY_KEY column_name3 
+						   );
+```
