@@ -1,0 +1,26 @@
+---
+title: Delete table
+taxonomy:
+    category: docs
+metadata:
+    description: 'Delete table'
+    keywords: 'Delete table'
+---
+|[fa icon=fa-user /]     | Shirisha Sunkara / tinitiate.com  |
+|-------------------------------------------------------------|
+|[fa icon=file-code-o /] | Delete-table.sql
+
+* Delete command is used to delete data from a table. 
+* Delete command can also be used with condition to delete a particular row.
+* Delete one or more tables.
+* MYSQL command 'DELETE FROM'.
+
+#### Delete table command 
+ DELETE FROM table_name WHERE condition
+
+ 
+#### Delete total table command
+```
+ DELETE *FROM table_name
+
+ ``
