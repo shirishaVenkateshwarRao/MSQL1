@@ -8,5 +8,5 @@
 <br>
 3.6.[DDL commands Alter table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Alter%20table) <br>
 4.1.[DML commands Insert table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DML%20commands/Insert%20table) <br>
-4.2.[DML commands Update table]
+4.2.[DML commands Update table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DML%20commands/Update%20table) <br>
 4.3.[DML commands Delete table]
