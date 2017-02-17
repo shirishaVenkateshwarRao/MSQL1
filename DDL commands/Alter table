@@ -1,0 +1,65 @@
+---
+title: Alter table
+taxonomy:
+    category: docs
+metadata:
+    description: 'Alter table'
+    keywords: 'Alter table '
+---
+|[fa icon=fa-user /]     | Shirisha Sunkara / tinitiate.com  |
+|-------------------------------------------------------------|
+|[fa icon=file-code-o /] | Alter-table.sql
+
+* MySQL Alter command is very useful when you want to change a name of your table,
+any table field or if you want to add or delete an existing column in a table.
+* The ALTER TABLE  statement allows you to add a column, drop a column, change the 
+ data type of column, add primary key, rename table, and many more.
+ 
+#### Rename a Table:
+* To rename a table, use the RENAME TO and specify the column definition.
+* To rename a table, use the following Syntax:
+```
+ALTER TABLE table_name
+RENAME TO new_table_name;
+```
+
+#### Rename column in table:
+* To rename column in table, use the CHANGE COLUMN and specify the column definition.
+* To rename column in table, use the following Syntax:
+```
+ALTER TABLE table_name
+CHANGE COLUMN old_name new_name data type(size)
+
+
+
+#### Add a new column into a table:
+* To add a column, use ADD and specify the column definition.
+* To add a column in a table, use the following syntax:
+```
+ALTER TABLE table_name
+ADD new_column_name datatype(size);
+```
+
+#### Add a Primary key:
+* To add a Primary key, use ADD PRIMARY KEY and specify the column definition.
+* To add a Primary key in a table, use the following syntax:
+```
+ALTER TABLE table_name
+ADD PRIMARY KEY(column_name);
+```
+
+#### Drop column in table:
+* To Drop a column, use DROP and specify the column definition.
+* To Drop a column in a table, use the following syntax:
+```
+ALTER TABLE table_name
+DROP COLUMN column_name;
+```
+
+#### Change Data Type in table:
+* To Change Data Type in table, use the MODIFY COLUMN and specify the column definition.
+* To Change Data Type in table, use the following Syntax:
+``` 
+ALTER TABLE table_name
+MODIFY COLUMN column_name data type(size);
+```
