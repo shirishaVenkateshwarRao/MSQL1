@@ -2,5 +2,7 @@
 2.[DataTypes](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DataTypes) <br>
 3.1.[DDL commands Create a table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Create%20a%20table) <br>
 3.2.[DDL commands Create a table with Primry key](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Create%20table%20with%20primary%20key) <br>
-3.3[DDL commands Create a table with Foreign key](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Create%20table%20with%20Foreign%20key) <br>
-3.4[DDL commands Drop table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Drop%20table)
+3.3.[DDL commands Create a table with Foreign key](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Create%20table%20with%20Foreign%20key) <br>
+3.4.[DDL commands Drop table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Drop%20table)<br>
+3.5.[DDL commands Truncate table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Truncate%20table) 
+<br>
