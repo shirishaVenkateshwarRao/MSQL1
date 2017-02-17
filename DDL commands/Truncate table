@@ -1,0 +1,22 @@
+---
+title: Truncate table
+taxonomy:
+    category: docs
+metadata:
+    description: 'Truncate table '
+    keywords: 'Truncate table  '
+---
+|[fa icon=fa-user /]     | Shirisha Sunkara / tinitiate.com  |
+|-------------------------------------------------------------|
+|[fa icon=file-code-o /] | truncate-table.sql
+
+* Truncate operations drop and re-create the table, which is much faster than deleting rows one by one, particularly for large tables.
+* Truncate operations cause an implicit commit, and cannot be rolled back.
+* Truncation operations cannot be performed if the session holds an active table lock.
+
+## CODE-SQL
+
+#### Truncate Table commands 
+```
+ TRUNCATE TABLE table_name
+ ```
