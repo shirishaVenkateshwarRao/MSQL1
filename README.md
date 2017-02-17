@@ -6,3 +6,4 @@
 3.4.[DDL commands Drop table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Drop%20table)<br>
 3.5.[DDL commands Truncate table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Truncate%20table) 
 <br>
+3.6.[DDL commands Alter table](https://github.com/shirishaVenkateshwarRao/MSQL1/blob/master/DDL%20commands/Alter%20table) <br>
