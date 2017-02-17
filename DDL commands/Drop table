@@ -1,0 +1,22 @@
+---
+title: Drop table
+taxonomy:
+    category: docs
+metadata:
+    description: 'Drop table '
+    keywords: 'Drop table  '
+---
+|[fa icon=fa-user /]     | Shirisha Sunkara / tinitiate.com  |
+|-------------------------------------------------------------|
+|[fa icon=file-code-o /] | drop-table.sql
+
+* Removes one or more tables. 
+* You must have the DROP privilege for each table.
+* All table data and the table definition are removed.
+
+## CODE-SQL
+
+### DROP table command
+```
+DROP TABLE table_name
+```
