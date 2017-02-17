@@ -1,0 +1,38 @@
+---
+title: Create table with foreign key
+taxonomy:
+    category: docs
+metadata:
+    description: 'Create table with foreign key '
+    keywords: 'Create table with foreign key  '
+---
+|[fa icon=fa-user /]     | Shirisha Sunkara / tinitiate.com  |
+|-------------------------------------------------------------|
+|[fa icon=file-code-o /] | Create-table-with-foreign-key.sql
+
+* Enables  to implement a database with tables, columns and indexes.
+* Guarantees the Referential Integrity between rows of various tables.
+* Updates the indexes automatically.
+
+##CODE-SQL
+
+### FOREIGN KEY
+* Foreign key is a rference to a primary key in another table or the table it self
+* If you not use Foreign key you dont have consistancy
+
+##CODE-SQL
+
+#### create table with foreign key command
+```
+ CREATE TABLE parent_table_name (column_name1 datatype not_null,
+							     column_name2 datatype size,
+								 column_name3 datatype size,
+								 PRIMARY_KEY column_name1
+								 );
+ CREATE TABLE child_table_name (column_name1 datatype,
+						        column_name1.1 datatype size,
+						        column_name1.2 datatype size,
+						        column_name1.3 datatype size 
+						        FOREIGN_KEY parent_table_name column_name1 REFERENCES parent_table_name column_name1
+								);						  
+```
