@@ -1,0 +1,25 @@
+---
+title: Create table 
+taxonomy:
+    category: docs
+metadata:
+    description: 'Create table '
+    keywords: 'Create table '
+---
+
+|[fa icon=fa-user /]     | Shirisha Sunkara / tinitiate.com  |
+|-------------------------------------------------------------|
+|[fa icon=file-code-o /] | Create-table.sql
+* Enables  to implement a database with tables, columns and indexes.
+*  Guarantees the Referential Integrity between rows of various tables.
+*  Updates the indexes automatically.
+
+## CODE-SQL
+
+### Create table command
+```
+ CREATE TABLE table_name ( column1 datatype size, 
+                           column2 datatype size,
+                           column3 datatype size, 
+                           columnn datatype size );
+ ```
