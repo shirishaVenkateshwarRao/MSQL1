@@ -1,0 +1,23 @@
+---
+title: Update table
+taxonomy:
+    category: docs
+metadata:
+    description: 'Update table '
+    keywords: 'Update table  '
+---
+|[fa icon=fa-user /]     | Shirisha Sunkara / tinitiate.com  |
+|-------------------------------------------------------------|
+|[fa icon=file-code-o /] | Update-table.sql
+
+
+* You can update one or more field altogether.
+* You can specify any condition using WHERE clause
+* You can update values in a single table at a time.
+
+#### Update table command 
+``` 
+ UPDATE table_name SET column1=new_value1 , 
+                       column2=new_value2 
+					             WHERE condition
+```
